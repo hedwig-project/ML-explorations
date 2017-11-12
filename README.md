@@ -1,5 +1,6 @@
 To set a virtualenv, to run this app locally:
 
+```
 sudo apt-get update  
 sudo apt-get install xmlsec1  
 sudo apt-get install python-dev libxml2-dev libxslt1-dev zlib1g-dev  
@@ -13,3 +14,4 @@ mkvirtualenv --py python3 ML
 setvirtualenvproject  
 source $HOME/envs/cte/ML/activate  
 pip install -r pip-requirements.txt  
+```
