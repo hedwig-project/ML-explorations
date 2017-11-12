@@ -12,6 +12,6 @@ export WORKON_HOME=$HOME/envs
 source /usr/local/bin/virtualenvwrapper.sh -p $WORKON_HOME  
 mkvirtualenv --py python3 ML  
 setvirtualenvproject  
-source $HOME/envs/cte/ML/activate  
+source $HOME/envs/ML/bin/activate  
 pip install -r pip-requirements.txt  
 ```
