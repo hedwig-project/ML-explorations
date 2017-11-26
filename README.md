@@ -15,3 +15,6 @@ setvirtualenvproject
 source $HOME/envs/ML/bin/activate  
 pip install -r pip-requirements.txt  
 ```
+
+To start Jupyter Notebook, simply run:
+`jupyter notebook` 
